@@ -194,7 +194,7 @@ public class WikiCapturer
         }
         else
             worker.setCaptureResources ((Boolean.valueOf (args[2]).booleanValue ()));
-        // REFACTO: 7. Extract local variable (multiple occurrences)
+        // REFACTO: 7 b. Extract local variable (multiple occurrences)
         // REFACTO: 8. Extract constant
         worker.setFilter (
             new NotFilter (

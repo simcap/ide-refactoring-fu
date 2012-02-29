@@ -264,6 +264,7 @@ public class Sequencer
             picture.y = p.y;
             picture.setOrigin (p);
         }
+        // REFACTO: 7 a. Extract local variable
         mThumbelina.getPicturePanel ().draw (picture, add);
     }
 
