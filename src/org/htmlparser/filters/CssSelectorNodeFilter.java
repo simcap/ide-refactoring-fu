@@ -106,7 +106,7 @@ public class CssSelectorNodeFilter implements NodeFilter
 
     private NodeFilter therule;
 
-    // REFACTO: Encapsulate field for matcher m
+    // REFACTO: 23. Encapsulate field for matcher m
     private Matcher m = null;
     private int tokentype = 0;
     

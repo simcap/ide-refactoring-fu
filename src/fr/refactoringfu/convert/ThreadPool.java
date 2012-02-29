@@ -4,8 +4,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-// REFACTO: Convert anonymous class to nested class (place cursor in anonymous class)
-// REFACTO: Move file into new type
+// REFACTO: 12. Convert anonymous class to nested class (place cursor in anonymous class)
+// REFACTO: 13. Move file into new type
 
 public class ThreadPool {
 	

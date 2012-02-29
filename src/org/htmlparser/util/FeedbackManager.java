@@ -36,7 +36,7 @@ package org.htmlparser.util;
  * @see DefaultParserFeedback
  **/
 
-// REFACTO: Rename class to FeedbackProvider
+// REFACTO: 1. Rename class to FeedbackProvider
 
 public class FeedbackManager {
 	protected static ParserFeedback callback = new DefaultParserFeedback();

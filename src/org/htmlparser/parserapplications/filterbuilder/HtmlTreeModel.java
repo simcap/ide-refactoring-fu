@@ -157,7 +157,7 @@ public class HtmlTreeModel implements TreeModel
         list = node.getChildren ();
         if (null != list)
         {
-        	// REFACTO: Inline variable 
+        	// REFACTO: 9. Inline variable count
             int count = list.size ();
             for (int i = 0; i < count; i++)
                 if (child == list.elementAt (i))

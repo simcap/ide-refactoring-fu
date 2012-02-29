@@ -44,7 +44,7 @@ import org.htmlparser.util.ParserException;
 
 public class ParserUtils
 {
-	// REFACTO: Rename method (deprecation of method)
+	// REFACTO: 2. Rename method (deprecation of method)
     public static String removeChars(String s, char occur) {
         StringBuffer newString = new StringBuffer();
         char ch;
@@ -148,7 +148,7 @@ public class ParserUtils
         Object[] outputObj = output.toArray();
         String[] outputStr = new String[output.size()];
         for (int i=0; i<output.size(); i++)
-        	// REFACTO: Introduce parameter for outputStr
+        	// REFACTO: 22. Introduce parameter for outputStr in the method signature
             outputStr[i] = new String((String) outputObj[i]);
         return outputStr;
         

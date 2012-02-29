@@ -73,7 +73,8 @@ import org.htmlparser.visitors.NodeVisitor;
  */
 public class StringBean extends NodeVisitor implements Serializable
 {
-	// REFACTO: Pull up constants in parent class (although not the correct design)
+	// REFACTO: 17. Pull up constants in parent class (although not the correct design)
+	// REFACTO: 18. Pull down once you have pushed up
 	
     /**
      * Property name in event where the URL contents changes.

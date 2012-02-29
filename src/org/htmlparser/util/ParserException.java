@@ -35,7 +35,7 @@ public class ParserException extends ChainedException {
 	public ParserException() {
 	}
 
-	// REFACTO: Change method signature. Introduce new Enum parameter ParseError
+	// REFACTO: 5. Change method signature. Introduce new Enum parameter ParseError
 	public ParserException(String message) {
 		super(message);
 	}

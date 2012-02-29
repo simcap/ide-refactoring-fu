@@ -142,7 +142,7 @@ public interface Node
      * be added to the list.</p>
      */
     
-    // REFACTO: Change method signature (respect hierarchy)
+    // REFACTO: 4. Change method signature by inverting parameters (respect hierarchy)
     void collectInto (NodeList list, NodeFilter filter);
 
     /**

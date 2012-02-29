@@ -103,6 +103,7 @@ public class ScriptScanner
         if (tag instanceof ScriptTag)
         {
             language = ((ScriptTag)tag).getLanguage ();
+            // REFACTO: 6. Extract method (simplify if logic)
             if ((null != language) &&
                 (language.equalsIgnoreCase ("JScript.Encode") ||
                  language.equalsIgnoreCase ("VBScript.Encode")))

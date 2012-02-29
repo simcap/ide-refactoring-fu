@@ -1,7 +1,7 @@
 package fr.refactoringfu.extracting;
 
-// REFACTO: Extract super classes (DefaultDataChannel, DefaultConnection)
-// REFACTO: Extract interfaces (DataChannel, Connection)
+// REFACTO: 14. Extract super classes (DefaultDataChannel, DefaultConnection)
+// REFACTO: 15. Extract interfaces (DataChannel, Connection)
 
 public class Modem {
 

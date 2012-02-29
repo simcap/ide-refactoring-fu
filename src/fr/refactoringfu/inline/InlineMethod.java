@@ -1,6 +1,6 @@
 package fr.refactoringfu.inline;
 
-// REFACTO: Inline method (remove method technique)
+// REFACTO: 10. Inline method (remove method technique)
 public class InlineMethod {
 
 	public void methodA(){

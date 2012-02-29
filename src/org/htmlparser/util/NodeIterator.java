@@ -28,7 +28,7 @@ package org.htmlparser.util;
 
 import org.htmlparser.Node;
 
-// REFACTO: Move interface and implementation in one go with on the fly creation of package
+// REFACTO: 3. Move interface and implementation in one go (multiple select) with on the fly creation of package
 public interface NodeIterator {
     /**
      * Check if more nodes are available.
