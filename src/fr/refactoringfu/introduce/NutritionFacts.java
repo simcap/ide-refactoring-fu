@@ -1,6 +1,6 @@
 package fr.refactoringfu.introduce;
 
-// REFACTO: 21 b. Introduce Factory 
+// REFACTO: 22 b. Introduce Factory 
 // REFACTO: 20. Introduce Parameter Object (cursor on/in method) 
 
 public class NutritionFacts {

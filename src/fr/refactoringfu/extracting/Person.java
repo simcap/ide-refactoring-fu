@@ -15,7 +15,6 @@ public class Person {
 	private Date lastLogin;
 	
 	public Person(String name, String surname) {
-		super();
 		this.name = name;
 		this.surname = surname;
 	}

@@ -59,7 +59,7 @@ class CharacterReferenceEx extends CharacterReference
      * Zero args constructor.
      * This object is only ever used after setting the kernel, start and end.
      */
-    // REFACTO: 21 a. Introduce Factory
+    // REFACTO: 22 a. Introduce Factory
     public CharacterReferenceEx ()
     {
         super ("", 0);

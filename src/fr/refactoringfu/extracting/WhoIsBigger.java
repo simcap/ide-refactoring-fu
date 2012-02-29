@@ -2,7 +2,7 @@ package fr.refactoringfu.extracting;
 
 public class WhoIsBigger {
 	
-	// REFACTO: 24. Generalize declared type (cursor on instances then on constructor)
+	// REFACTO: 25. Generalize declared type (cursor on instances then on constructor)
 	
 	private Horse animal;
 	private Elephant secondAnimal;

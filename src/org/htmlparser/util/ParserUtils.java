@@ -63,6 +63,8 @@ public class ParserUtils
         return inputString;
     }
 
+    // REFACTO: 21. Introduce indirection (create alias quickly)
+    
     public static String removeTrailingBlanks(String text) {
         char ch = ' ';
         while (ch == ' ') {
@@ -148,7 +150,7 @@ public class ParserUtils
         Object[] outputObj = output.toArray();
         String[] outputStr = new String[output.size()];
         for (int i=0; i<output.size(); i++)
-        	// REFACTO: 22. Introduce parameter for outputStr in the method signature
+        	// REFACTO: 23. Introduce parameter for outputStr in the method signature
             outputStr[i] = new String((String) outputObj[i]);
         return outputStr;
         
