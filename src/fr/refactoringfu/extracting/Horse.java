@@ -1,5 +1,6 @@
 package fr.refactoringfu.extracting;
 
+// REFACTO: 16 a. Use Supertype where possible (cursor anywhere in class)
 public class Horse implements Animal {
 
 	@Override
