@@ -2,24 +2,39 @@ package fr.refactoringfu.extracting;
 
 public class WhoIsBigger {
 	
+	// REFACTO: 24. Generalize declared type (cursor on instances)
+	
+	private Horse animal;
+	private Elephant secondAnimal;
+	
 	public static void main(String[] args) {
 		Horse horse = new Horse();
 		Elephant elephant = new Elephant();
-		whoIsHeavier(horse, elephant);
-		whoIsTaller(horse, elephant);
+
+		WhoIsBigger whoIsBigger = new WhoIsBigger(horse, elephant);
+		
+		whoIsBigger.whoIsHeavier();
+		whoIsBigger.whoIsTaller();
 	}
 	
-	
-	public static String whoIsHeavier(Horse animal, Animal secondAnimal) {
+	public WhoIsBigger(Horse horse, Elephant elephant) {
+		super();
+		this.animal = horse;
+		this.secondAnimal = elephant;
+	}
+
+	public String whoIsHeavier() {
 		if(animal.getWeight() > secondAnimal.getWeight()) {
 			return animal.getName();
 		} else return secondAnimal.getName();  
 	}
 	
 
-	public static String whoIsTaller(Horse animal, Animal secondAnimal) {
+	public String whoIsTaller() {
 		if(animal.getSize() > secondAnimal.getSize()) {
 			return animal.getName();
 		} else return secondAnimal.getName();  
 	}
+	
+	
 }
